@@ -1,0 +1,24 @@
+{
+  "name": "darth",
+  "version": "1.0.0",
+  "description": "betting bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sridharkritha/darth.git"
+  },
+  "author": "sridhar krishnan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sridharkritha/darth/issues"
+  },
+  "homepage": "https://github.com/sridharkritha/darth#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
