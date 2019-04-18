@@ -4,7 +4,7 @@
 	var fs = require('fs');
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	var UTIL = require('./util');
-	var DOOR = require('./door');
+	var ACCESS = require('./access');
 	var MISC = require('./misc');
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	var sri = 0;
@@ -675,6 +675,10 @@
 			sessionStartTime = 0;
 			console.log(err);
 		}
+		else if(!sessionToken)
+		{
+			console.log("SessionToken: "+ sessionToken);
+		}
 		else{
 			sessionToken = sessionToken;
 			sessionStartTime = sessionStartTime;
@@ -683,7 +687,7 @@
 	};
 
 	getNewSession = function() {
-		DOOR.login(loginCallback); // login
+		ACCESS.getAccess('local', loginCallback); // login
 	};
 
 	// Entry Function

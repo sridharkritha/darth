@@ -1,5 +1,5 @@
 var request = require('request');
-var fs = require('fs');
+
 var DOOR = (function() {
 	// Private Members
 	return {
@@ -11,31 +11,24 @@ var DOOR = (function() {
 	// cookie named "session-token" or a header named "session-token".
 	// Matchbook sessions live for approximately 6 hours so only 1 login request every 6 hours is required. The same session 
 	// should be used for all requests in that period.
-	login: function (callback) {
-		// Asynchronous 'json' file read
-		fs.readFile('./../../../../credential.json', function(err, data) {
-			if (err) throw err;
-			var credential = JSON.parse(data);
-			// console.log(credential);
-			
-			request.post(
-				'https://api.matchbook.com/bpapi/rest/security/session',
-				{ json: credential}, // username and passwords
-				function (error, response, body) {
-					if (!error && response.statusCode == 200) {
-						sessionToken = body['session-token'];
-						sessionStartTime = new Date().getTime();
+	login: function (credential, callback) {
+		request.post(
+			'https://api.matchbook.com/bpapi/rest/security/session',
+			{ json: credential}, // username and passwords
+			function (error, response, body) {
+				if (!error && response.statusCode == 200) {
+					sessionToken = body['session-token'];
+					sessionStartTime = new Date().getTime();
 
-						 return callback(null, sessionToken, sessionStartTime);
-					}
-					else {
-						console.log(body);
-
-						return callback(error, null, 0);
-					}
+						return callback(null, sessionToken, sessionStartTime);
 				}
-			);
-		});
+				else {
+					console.log(body);
+
+					return callback(error, null, 0);
+				}
+			}
+		);
 		},
 	
 		// Logout

@@ -8,7 +8,7 @@
 			"type": "node",
 			"request": "launch",
 			"name": "Launch Program\\src",					// set directory here
-			"program": "${workspaceFolder}\\src\\index.js" 	// set start js here
+			"program": "${workspaceFolder}\\src\\main.js" 	// set start js here
 		}
 	]
 }
