@@ -30,7 +30,8 @@
 	'Horse Racing (Ante Post)','Horse Racing Beta','Hurling','Ice Hockey'];
 	*/
 	// ['Horse Racing'];  ['ALL']; ['Cricket']; ['Horse Racing','Greyhound Racing', 'Cricket'];
-	var sportsInterested = ['Horse Racing','Greyhound Racing', 'Cricket'];  
+	// ['Horse Racing','Greyhound Racing', 'Cricket']
+	var sportsInterested = ['Horse Racing'];
 	var whichDayEvent = 'today'; // 'today'   or    'tomorrow'
 	var isLockedForBetting = true; // true
 
@@ -348,23 +349,23 @@
 		}
 		else {
 			// Check if a file is exist or not
-			fs.open('./data/successfulBets.json', 'r', function(err, fd)
+			fs.open('./src/data/successfulBets.json', 'r', function(err, fd)
 			{
 				if(err)
 				{
 					if(err.code === 'ENOENT')
 					{
 						// File is not exist, creat a empty file
-						fs.closeSync(fs.openSync('./data/successfulBets.json', 'w'));
+						fs.closeSync(fs.openSync('./src/data/successfulBets.json', 'w'));
 						successfulBets = [] ;
 						luckyMatchFilter(jsonObj, objLevelFilter, callback);
-						console.log("Success: ./data/successfulBets.json - created and saved!");
+						console.log("Success: ./src/data/successfulBets.json - created and saved!");
 					}
 				}
 				else
 				{
 					// File is exist, read from the file (Asynchronous 'json' file read)
-					fs.readFile('./data/successfulBets.json', function(err, data) {
+					fs.readFile('./src/data/successfulBets.json', function(err, data) {
 						if (err) throw err;
 						if(data && data.length) {
 							successfulBets = JSON.parse(data);
@@ -507,7 +508,7 @@
 					console.log(obj);
 					successfulBets.push(obj);
 					
-					UTIL.writeJsonFile(successfulBets,'./data/mockSuccessfulBets.json');
+					UTIL.writeJsonFile(successfulBets,'./src/data/mockSuccessfulBets.json');
 				}
 			}
 		}
@@ -524,7 +525,7 @@
 			++events_cbCount.currentCount;
 			if(events_cbCount.currentCount === events_cbCount.totalCount)
 			{
-				UTIL.writeJsonFile(db.sportId[sportName],'./data/result.json');
+				UTIL.writeJsonFile(db.sportId[sportName],'./src/data/result.json');
 
 				findLuckyMatch(db.sportId[sportName], "events", function(err, data) {
 						if(err){
@@ -663,7 +664,7 @@
 					console.log(obj);
 					successfulBets.push(obj);
 					
-					UTIL.writeJsonFile(successfulBets,'./data/successfulBets.json');
+					UTIL.writeJsonFile(successfulBets,'./src/data/successfulBets.json');
 				}
 			}
 		}
@@ -697,21 +698,6 @@
 }()); // namespace
 
 /*
-
-mb_get_sports
-mb_get_events
-mb_get_markets
-
-https://github.com/xanadunf/matchbook
-
-
-C# Project: https://www.dropbox.com/s/nm32ispvu8jr7hp/BpapiConsoleProject.zip?dl=0
-
-Submit offers:
-https://developers.matchbook.com/discuss/5af4eef233a27b0003957a07
-
-Get Events
-
 You can use the Live Betting category or navigation entry to help you with this.
 Examples: 
 https://www.matchbook.com/edge/rest/events?sport-ids=1&tag-url-names=live-betting&price-depth=0
@@ -720,11 +706,36 @@ https://api.matchbook.com/edge/rest/events?sport-ids=8&tag-url-names=live-bettin
 You can get all sport_ids and competitions :
 https://api.matchbook.com/edge/rest/navigation
 
+	Remote Hosting:
+	---------------
+	// 1. Run locally
+	// Run the webserver => node createWebserver.js
+	// Request the webserver from browser => localhost:1234
 
-// browserify
-npm install -g browserify --save
+	//2. Run remotely - Heroku
+	//-----------------------
+	1. mkdir demo -> cd demo -> npm init -fy (creats package.json)
+	2. npm i request --save (add dependecy(request module details) to package.json)
+	3. Inside package.json, configure the start program inside "scripts" 
+	"scripts": {
+		"start": "node hello.js"
+	  },
 
-// Local web server
-http-server  -p 8059 -c-1
+	4. commit the changes to 'your' git repo.
+	----------------------------------------------
+	5. heroku login 
+	6. heroku create
+	7. git push heroku master (push the project to heroku for deployment)
+	8. heroku open
 
+	Advanced:
+	---------
+	6. heroku create --region eu
+	7. heroku git:remote -a stormy-waters-62271 (push the project to heroku for deployment )
+
+	Clone:
+	heroku git:clone -a stormy-waters-62271
+
+
+	// ref: https://medium.com/@grantspilsbury/build-and-deploy-a-node-express-server-to-heroku-in-10-steps-70c936ab15dc
 */
