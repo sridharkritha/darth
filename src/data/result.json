@@ -4,12 +4,12 @@
     "13:30 Lingfield": {
       "12 Lion Hearted": {
         "runnerId": 1095379430230066,
-        "back": 5.8,
-        "lay": 6.4
+        "back": 6,
+        "lay": 6.6
       },
       "1 Breathless Times": {
         "runnerId": 1095379429810066,
-        "back": 6,
+        "back": 6.4,
         "lay": 7
       },
       "4 Gallipoli": {
@@ -20,57 +20,57 @@
       "3 Raucous": {
         "runnerId": 1095379429890066,
         "back": 9.4,
-        "lay": 11
+        "lay": 10.5
       },
       "6 Sha La La La Lee": {
         "runnerId": 1095379430000066,
         "back": 10.5,
-        "lay": 13
+        "lay": 13.5
       },
       "9 Poetic Force": {
         "runnerId": 1095379430110066,
-        "back": 9.2,
-        "lay": 13.5
+        "back": 11.5,
+        "lay": 13
       },
       "10 Starlight Romance": {
         "runnerId": 1095379430150066,
-        "back": 12,
+        "back": 11,
         "lay": 14.5
-      },
-      "2 Goring": {
-        "runnerId": 1095379429850066,
-        "back": 18,
-        "lay": 1000
       },
       "13 Suzi's Connoisseur": {
         "runnerId": 1095379430270066,
-        "back": 18.5,
-        "lay": 30
+        "back": 18,
+        "lay": 34
       },
       "8 Mr Scaramanga": {
         "runnerId": 1095379430080066,
         "back": 19.5,
-        "lay": 85
+        "lay": 65
       },
       "11 Apex King": {
         "runnerId": 1095379430190066,
-        "back": 16.5,
+        "back": 15,
         "lay": 21
       },
       "7 Exchequer": {
         "runnerId": 1095379430040066,
-        "back": 21,
-        "lay": 70
+        "back": 22,
+        "lay": 85
+      },
+      "2 Goring": {
+        "runnerId": 1095379429850066,
+        "back": 16.5,
+        "lay": 34
       },
       "14 Philamundo": {
         "runnerId": 1095379430310066,
-        "back": 26,
-        "lay": 160
+        "back": 27,
+        "lay": 550
       },
       "5 Giogiobbo": {
         "runnerId": 1095379429960066,
         "back": 0,
-        "lay": 1000
+        "lay": 0
       },
       "id": 1095379428230066,
       "start": "2019-04-19T12:30:00.000Z"
@@ -78,38 +78,38 @@
     "13:40 Newcastle": {
       "2 Lady Kermit": {
         "runnerId": 1095378807380167,
-        "back": 1.6024,
-        "lay": 1.63292
+        "back": 1.55555,
+        "lay": 1.5814
       },
       "1 Chasanda": {
         "runnerId": 1095378807340067,
-        "back": 8,
-        "lay": 8.6
+        "back": 9.4,
+        "lay": 18
       },
       "5 Mighty Spirit": {
         "runnerId": 1095378807490167,
-        "back": 9.4,
-        "lay": 14.5
+        "back": 10,
+        "lay": 13.5
       },
       "10 Stars In The Night": {
         "runnerId": 1095378807680067,
-        "back": 12,
+        "back": 19,
         "lay": 160
-      },
-      "3 Macho Touch": {
-        "runnerId": 1095378807420067,
-        "back": 13,
-        "lay": 21
       },
       "4 Mia Diva": {
         "runnerId": 1095378807450167,
-        "back": 17,
-        "lay": 310
+        "back": 16.5,
+        "lay": 42
       },
       "9 Siena Bay": {
         "runnerId": 1095378807640167,
-        "back": 18.5,
-        "lay": 36
+        "back": 17,
+        "lay": 55
+      },
+      "3 Macho Touch": {
+        "runnerId": 1095378807420067,
+        "back": 15.5,
+        "lay": 19.5
       },
       "6 Moneyball": {
         "runnerId": 1095378807530167,
@@ -118,12 +118,12 @@
       },
       "7 Northern Grace": {
         "runnerId": 1095378807570167,
-        "back": 25,
+        "back": 0,
         "lay": 0
       },
       "8 Penmellyn": {
         "runnerId": 1095378807610067,
-        "back": 0,
+        "back": 28,
         "lay": 0
       },
       "id": 1095378805930067,
@@ -132,18 +132,18 @@
     "13:50 Bath": {
       "3 The Cruising Lord": {
         "runnerId": 1095377584540066,
-        "back": 2.16,
-        "lay": 2.18
+        "back": 2.18,
+        "lay": 2.26
       },
       "1 Global Prospector": {
         "runnerId": 1095377584460066,
         "back": 2.1,
-        "lay": 2.22
+        "lay": 2.16
       },
       "2 Highest Mountain": {
         "runnerId": 1095377584500066,
-        "back": 17,
-        "lay": 40
+        "back": 11.5,
+        "lay": 15
       },
       "4 Bluebell Time": {
         "runnerId": 1095377584580066,
@@ -152,8 +152,8 @@
       },
       "5 Laura's Legacy": {
         "runnerId": 1095377584620066,
-        "back": 22,
-        "lay": 310
+        "back": 0,
+        "lay": 550
       },
       "id": 1095377583610066,
       "start": "2019-04-19T12:50:00.000Z"
@@ -161,43 +161,43 @@
     "14:00 Lingfield": {
       "1 Amade": {
         "runnerId": 1095379435240067,
-        "back": 2.06,
-        "lay": 2.14
+        "back": 2.02,
+        "lay": 2.08
       },
       "11 Aircraft Carrier": {
         "runnerId": 1095379435620167,
-        "back": 9.4,
-        "lay": 0
+        "back": 8.6,
+        "lay": 11
       },
       "8 Spark Plug": {
         "runnerId": 1095379435510067,
-        "back": 9.2,
-        "lay": 10.5
+        "back": 9.8,
+        "lay": 11
       },
       "10 Watersmeet": {
         "runnerId": 1095379435590067,
-        "back": 8.8,
-        "lay": 10
-      },
-      "9 Stamford Raffles": {
-        "runnerId": 1095379435550067,
-        "back": 0,
-        "lay": 0
+        "back": 10.5,
+        "lay": 14
       },
       "5 Higher Power": {
         "runnerId": 1095379435400067,
-        "back": 0,
-        "lay": 0
+        "back": 14.5,
+        "lay": 19
+      },
+      "9 Stamford Raffles": {
+        "runnerId": 1095379435550067,
+        "back": 15,
+        "lay": 29
       },
       "7 Petite Jack": {
         "runnerId": 1095379435480067,
-        "back": 0,
-        "lay": 0
+        "back": 14,
+        "lay": 24
       },
       "6 Lord George": {
         "runnerId": 1095379435440067,
-        "back": 0,
-        "lay": 0
+        "back": 18,
+        "lay": 40
       },
       "3 Fearsome": {
         "runnerId": 1095379435320067,
@@ -220,48 +220,48 @@
     "14:10 Newcastle": {
       "6 Show Me A Sunset": {
         "runnerId": 1095378812730066,
-        "back": 3.3,
-        "lay": 3.6
+        "back": 3.5,
+        "lay": 3.75
       },
       "7 Lufricia": {
         "runnerId": 1095378812770066,
-        "back": 3.85,
-        "lay": 3.95
+        "back": 3.7,
+        "lay": 3.85
       },
       "2 Rocket Action": {
         "runnerId": 1095378812580066,
-        "back": 5.8,
-        "lay": 6
+        "back": 5.5,
+        "lay": 5.6
       },
       "1 Aplomb": {
         "runnerId": 1095378812540066,
-        "back": 9.4,
-        "lay": 11
+        "back": 9.2,
+        "lay": 12.5
       },
       "3 Exalted Angel": {
         "runnerId": 1095378812620066,
-        "back": 10,
-        "lay": 11
+        "back": 9.8,
+        "lay": 12
       },
       "11 Sound Of Iona": {
         "runnerId": 1095378812920066,
         "back": 14,
-        "lay": 21
+        "lay": 20
       },
       "4 Kodi King": {
         "runnerId": 1095378812660066,
-        "back": 18.5,
-        "lay": 210
+        "back": 0,
+        "lay": 95
       },
       "5 Olympic Spirit": {
         "runnerId": 1095378812690066,
-        "back": 18.5,
-        "lay": 46
+        "back": 19.5,
+        "lay": 75
       },
       "10 Skeetah": {
         "runnerId": 1095378812880066,
-        "back": 23,
-        "lay": 1000
+        "back": 0,
+        "lay": 0
       },
       "8 Piccupaprosecco": {
         "runnerId": 1095378812800166,
@@ -279,43 +279,43 @@
     "14:20 Bath": {
       "1 Zulu Zander": {
         "runnerId": 1095377589620066,
-        "back": 2.26,
-        "lay": 2.28
+        "back": 2.28,
+        "lay": 2.36
       },
       "5 Don't Joke": {
         "runnerId": 1095377589790066,
-        "back": 5.4,
-        "lay": 5.5
+        "back": 4.7,
+        "lay": 5.1
       },
       "2 Album": {
         "runnerId": 1095377589670066,
-        "back": 5.3,
-        "lay": 5.6
+        "back": 5.5,
+        "lay": 5.8
       },
       "9 Willa": {
         "runnerId": 1095377589940066,
         "back": 9.2,
-        "lay": 19
+        "lay": 14
       },
       "4 Dark Optimist": {
         "runnerId": 1095377589750066,
-        "back": 18,
-        "lay": 36
+        "back": 14.5,
+        "lay": 40
       },
       "8 Queens Road": {
         "runnerId": 1095377589900066,
         "back": 17,
-        "lay": 0
+        "lay": 36
       },
       "3 Contract Kid": {
         "runnerId": 1095377589710066,
-        "back": 24,
+        "back": 20,
         "lay": 0
       },
       "6 Fact Or Fable": {
         "runnerId": 1095377589820166,
         "back": 27,
-        "lay": 210
+        "lay": 550
       },
       "7 Brown Eyes Blue": {
         "runnerId": 1095377589860166,
@@ -328,17 +328,17 @@
     "14:30 Lingfield": {
       "7 Island Of Life": {
         "runnerId": 1095379438130066,
-        "back": 4.9,
-        "lay": 5
+        "back": 5.1,
+        "lay": 5.2
       },
       "3 Crossing The Line": {
         "runnerId": 1095379437980066,
-        "back": 6.2,
+        "back": 6.4,
         "lay": 7.4
       },
       "9 Rasima": {
         "runnerId": 1095379438200166,
-        "back": 6.6,
+        "back": 6.4,
         "lay": 7.2
       },
       "5 Gorgeous Noora": {
@@ -348,33 +348,33 @@
       },
       "6 Heavenly Holly": {
         "runnerId": 1095379438090066,
-        "back": 0,
-        "lay": 0
+        "back": 10.5,
+        "lay": 16
       },
       "2 Clon Coulis": {
         "runnerId": 1095379437940066,
         "back": 8,
-        "lay": 9.4
+        "lay": 9.8
       },
       "1 Castle Hill Cassie": {
         "runnerId": 1095379437900066,
-        "back": 0,
-        "lay": 0
+        "back": 11,
+        "lay": 16.5
       },
       "10 Silvery Mist": {
         "runnerId": 1095379438240066,
         "back": 12.5,
-        "lay": 15.5
+        "lay": 13
       },
       "8 Pattie": {
         "runnerId": 1095379438160166,
-        "back": 0,
-        "lay": 0
+        "back": 22,
+        "lay": 85
       },
       "4 Cry Baby": {
         "runnerId": 1095379438020066,
-        "back": 0,
-        "lay": 0
+        "back": 23,
+        "lay": 110
       },
       "11 Toy Theatre": {
         "runnerId": 1095379438280066,
@@ -392,13 +392,13 @@
     "14:45 Newcastle": {
       "14 Global Warning": {
         "runnerId": 1095378816710067,
-        "back": 4.9,
+        "back": 4.8,
         "lay": 5.5
       },
       "4 Chaplin Bay": {
         "runnerId": 1095378816150067,
-        "back": 6.2,
-        "lay": 6.8
+        "back": 6.4,
+        "lay": 7.2
       },
       "6 Chosen World": {
         "runnerId": 1095378816250067,
@@ -408,52 +408,52 @@
       "8 Tiercel": {
         "runnerId": 1095378816360067,
         "back": 9.6,
-        "lay": 17.5
+        "lay": 14
       },
       "13 Desert Lantern": {
         "runnerId": 1095378816630167,
-        "back": 17,
+        "back": 14.5,
         "lay": 34
       },
       "12 Insurplus": {
         "runnerId": 1095378816600067,
-        "back": 12,
-        "lay": 40
+        "back": 11.5,
+        "lay": 55
       },
       "2 Scofflaw": {
         "runnerId": 1095378816000067,
-        "back": 14.5,
-        "lay": 21
+        "back": 14,
+        "lay": 26
       },
       "10 Testa Rossa": {
         "runnerId": 1095378816480167,
-        "back": 13,
-        "lay": 19
+        "back": 14.5,
+        "lay": 27
       },
       "7 Our Charlie Brown": {
         "runnerId": 1095378816290067,
-        "back": 16.5,
-        "lay": 55
-      },
-      "11 Etikaal": {
-        "runnerId": 1095378816540067,
         "back": 18.5,
-        "lay": 160
-      },
-      "3 First Response": {
-        "runnerId": 1095378816070067,
-        "back": 19.5,
-        "lay": 40
-      },
-      "1 Twin Appeal": {
-        "runnerId": 1095378815700067,
-        "back": 14,
-        "lay": 36
+        "lay": 55
       },
       "5 Dubai Acclaim": {
         "runnerId": 1095378816190067,
-        "back": 14,
-        "lay": 20
+        "back": 17,
+        "lay": 18
+      },
+      "11 Etikaal": {
+        "runnerId": 1095378816540067,
+        "back": 17,
+        "lay": 36
+      },
+      "3 First Response": {
+        "runnerId": 1095378816070067,
+        "back": 18.5,
+        "lay": 42
+      },
+      "1 Twin Appeal": {
+        "runnerId": 1095378815700067,
+        "back": 19,
+        "lay": 55
       },
       "9 Irish Minister": {
         "runnerId": 1095378816410067,
@@ -466,38 +466,38 @@
     "14:55 Bath": {
       "2 Pablo Escobarr": {
         "runnerId": 1095377591020067,
-        "back": 3.95,
+        "back": 4,
         "lay": 4.3
       },
       "1 West End Charmer": {
         "runnerId": 1095377590970067,
-        "back": 4.4,
-        "lay": 4.8
+        "back": 4.5,
+        "lay": 5
       },
       "3 Living Legend": {
         "runnerId": 1095377591050167,
         "back": 4.9,
-        "lay": 5.4
+        "lay": 5.3
       },
       "4 Fearless Warrior": {
         "runnerId": 1095377591090167,
-        "back": 5.8,
-        "lay": 6.6
+        "back": 5.6,
+        "lay": 6
       },
       "6 Blood Eagle": {
         "runnerId": 1095377591180067,
-        "back": 8,
-        "lay": 0
+        "back": 9,
+        "lay": 11
       },
       "7 Robert L'Echelle": {
         "runnerId": 1095377591210167,
-        "back": 0,
-        "lay": 0
+        "back": 12.5,
+        "lay": 18.5
       },
       "5 Just Hubert": {
         "runnerId": 1095377591130067,
-        "back": 0,
-        "lay": 0
+        "back": 28,
+        "lay": 1000
       },
       "id": 1095377590090067,
       "start": "2019-04-19T13:55:00.000Z"
@@ -506,17 +506,17 @@
       "8 Kachy": {
         "runnerId": 1095379440470067,
         "back": 1.69444,
-        "lay": 1.72464
-      },
-      "5 Encrypted": {
-        "runnerId": 1095379440350167,
-        "back": 9.4,
-        "lay": 11.5
+        "lay": 1.70423
       },
       "6 Forza Capitano": {
         "runnerId": 1095379440390067,
-        "back": 9.8,
-        "lay": 13.5
+        "back": 10.5,
+        "lay": 13
+      },
+      "5 Encrypted": {
+        "runnerId": 1095379440350167,
+        "back": 9.6,
+        "lay": 11
       },
       "7 George Bowen": {
         "runnerId": 1095379440430067,
@@ -525,28 +525,28 @@
       },
       "4 Encore d'Or": {
         "runnerId": 1095379440320067,
-        "back": 0,
-        "lay": 0
+        "back": 20,
+        "lay": 65
       },
       "11 Stone Of Destiny": {
         "runnerId": 1095379440570167,
         "back": 15,
-        "lay": 0
+        "lay": 23
       },
       "1 Alfredo Arcano": {
         "runnerId": 1095379440190067,
-        "back": 0,
-        "lay": 0
+        "back": 18,
+        "lay": 55
       },
       "9 Merhoob": {
         "runnerId": 1095379440500067,
-        "back": 0,
-        "lay": 0
+        "back": 20,
+        "lay": 55
       },
       "10 Royal Birth": {
         "runnerId": 1095379440540067,
-        "back": 0,
-        "lay": 0
+        "back": 28,
+        "lay": 550
       },
       "2 Alsvinder": {
         "runnerId": 1095379440240167,
@@ -564,28 +564,28 @@
     "15:20 Newcastle": {
       "4 Daarik": {
         "runnerId": 1095378818340067,
-        "back": 4.5,
+        "back": 4.4,
         "lay": 4.8
       },
       "10 Magic J": {
         "runnerId": 1095378818570067,
-        "back": 5.2,
-        "lay": 5.8
+        "back": 5.7,
+        "lay": 6
       },
       "2 Bayroot": {
         "runnerId": 1095378818260067,
-        "back": 7,
-        "lay": 7.4
+        "back": 7.4,
+        "lay": 8.6
       },
       "11 Marie's Diamond": {
         "runnerId": 1095378818610067,
-        "back": 7.8,
-        "lay": 8.4
+        "back": 7,
+        "lay": 8.2
       },
       "7 Ebury": {
         "runnerId": 1095378818460067,
-        "back": 10,
-        "lay": 15.5
+        "back": 11.5,
+        "lay": 40
       },
       "3 Creationist": {
         "runnerId": 1095378818300067,
@@ -595,27 +595,27 @@
       "8 Fox Power": {
         "runnerId": 1095378818490167,
         "back": 10,
-        "lay": 12.5
+        "lay": 12
       },
       "5 Dark Jedi": {
         "runnerId": 1095378818380067,
         "back": 13,
-        "lay": 23
+        "lay": 24
       },
       "1 Antagonize": {
         "runnerId": 1095378818220067,
-        "back": 16,
-        "lay": 30
+        "back": 15.5,
+        "lay": 34
       },
       "6 Dark Lochnagar": {
         "runnerId": 1095378818420067,
-        "back": 24,
+        "back": 25,
         "lay": 0
       },
       "12 Pogo": {
         "runnerId": 1095378818650067,
-        "back": 25,
-        "lay": 1000
+        "back": 23,
+        "lay": 0
       },
       "9 Insandi": {
         "runnerId": 1095378818530067,
@@ -628,13 +628,8 @@
     "15:30 Bath": {
       "10 Power of Darkness": {
         "runnerId": 1095377595260166,
-        "back": 4.5,
-        "lay": 5.5
-      },
-      "7 Salute The Soldier": {
-        "runnerId": 1095377595150066,
-        "back": 8.4,
-        "lay": 10
+        "back": 4.6,
+        "lay": 4.9
       },
       "4 Waarif": {
         "runnerId": 1095377595030066,
@@ -643,62 +638,67 @@
       },
       "2 Zwayyan": {
         "runnerId": 1095377594940066,
-        "back": 11,
-        "lay": 0
+        "back": 11.5,
+        "lay": 13
+      },
+      "7 Salute The Soldier": {
+        "runnerId": 1095377595150066,
+        "back": 8.4,
+        "lay": 8.8
       },
       "5 Petrus": {
         "runnerId": 1095377595060066,
-        "back": 7.4,
+        "back": 8,
         "lay": 9.8
       },
       "6 Wahash": {
         "runnerId": 1095377595100066,
-        "back": 0,
-        "lay": 0
+        "back": 18,
+        "lay": 26
       },
       "13 Rampant Lion": {
         "runnerId": 1095377595390066,
-        "back": 0,
-        "lay": 0
+        "back": 14,
+        "lay": 24
       },
       "9 Mythical Madness": {
         "runnerId": 1095377595230066,
-        "back": 0,
-        "lay": 0
+        "back": 13.5,
+        "lay": 27
       },
       "8 War Glory": {
         "runnerId": 1095377595190066,
-        "back": 0,
-        "lay": 0
+        "back": 17,
+        "lay": 36
       },
       "1 Tricorn": {
         "runnerId": 1095377594900066,
-        "back": 0,
-        "lay": 0
+        "back": 16.5,
+        "lay": 30
       },
       "3 Breden": {
         "runnerId": 1095377594990066,
-        "back": 0,
-        "lay": 0
+        "back": 13.5,
+        "lay": 29
       },
       "11 Mr Top Hat": {
         "runnerId": 1095377595310066,
-        "back": 0,
-        "lay": 0
+        "back": 13.5,
+        "lay": 21
       },
       "12 Ghayadh": {
         "runnerId": 1095377595340166,
-        "back": 0,
-        "lay": 0
+        "back": 17.5,
+        "lay": 60
       },
       "14 Sea Fox": {
         "runnerId": 1095377595450066,
-        "back": 0,
-        "lay": 0
+        "back": 26,
+        "lay": 550
       },
       "15 Uther Pendragon": {
         "runnerId": 1095377595490066,
-        "back": 0,
+        "back": 29,
         "lay": 0
       },
       "id": 1095377593130066,
@@ -708,27 +708,27 @@
       "7 Pizzicato": {
         "runnerId": 1095379442940066,
         "back": 5,
-        "lay": 5.4
+        "lay": 5.5
       },
       "1 Charming Kid": {
         "runnerId": 1095379442700066,
-        "back": 6,
+        "back": 6.2,
         "lay": 7
       },
       "3 Deep Intrigue": {
         "runnerId": 1095379442780066,
-        "back": 6.4,
-        "lay": 7.4
+        "back": 6.2,
+        "lay": 7.2
       },
       "2 Concierge": {
         "runnerId": 1095379442740166,
-        "back": 7,
-        "lay": 7.8
+        "back": 7.2,
+        "lay": 9
       },
       "4 Deputise": {
         "runnerId": 1095379442820066,
-        "back": 5.8,
-        "lay": 7.2
+        "back": 6.2,
+        "lay": 6.8
       },
       "6 James Street": {
         "runnerId": 1095379442900066,
@@ -738,27 +738,27 @@
       "8 Quiet Endeavour": {
         "runnerId": 1095379442980066,
         "back": 11.5,
-        "lay": 15.5
+        "lay": 13
       },
       "11 You Never Can Tell": {
         "runnerId": 1095379443100066,
-        "back": 0,
-        "lay": 42
+        "back": 18,
+        "lay": 60
       },
       "10 Shining Armor": {
         "runnerId": 1095379443060066,
         "back": 0,
-        "lay": 0
+        "lay": 1000
       },
       "12 Yolo Again": {
         "runnerId": 1095379443140066,
-        "back": 0,
-        "lay": 1000
+        "back": 26,
+        "lay": 550
       },
       "5 Fares Kodiac": {
         "runnerId": 1095379442860066,
-        "back": 0,
-        "lay": 0
+        "back": 25,
+        "lay": 310
       },
       "9 Sandridge Lad": {
         "runnerId": 1095379443020066,
@@ -771,18 +771,18 @@
     "15:55 Newcastle": {
       "9 Forbidden Planet": {
         "runnerId": 1095378821390066,
-        "back": 5,
-        "lay": 5.4
+        "back": 4.9,
+        "lay": 5.3
       },
       "11 Big Kitten": {
         "runnerId": 1095378821470166,
-        "back": 6.4,
-        "lay": 7.4
+        "back": 6.6,
+        "lay": 7
       },
       "3 Buzz": {
         "runnerId": 1095378821160166,
-        "back": 8.8,
-        "lay": 10.5
+        "back": 9.2,
+        "lay": 11
       },
       "1 Desert Fire": {
         "runnerId": 1095378821090066,
@@ -791,48 +791,48 @@
       },
       "4 Baghdad": {
         "runnerId": 1095378821200066,
-        "back": 11.5,
-        "lay": 16
+        "back": 10.5,
+        "lay": 11.5
       },
       "2 Island Brave": {
         "runnerId": 1095378821120166,
         "back": 11,
-        "lay": 13.5
+        "lay": 12
       },
       "8 Shailene": {
         "runnerId": 1095378821350166,
-        "back": 14,
-        "lay": 21
+        "back": 14.5,
+        "lay": 60
       },
       "12 Showroom": {
         "runnerId": 1095378821510066,
-        "back": 15.5,
-        "lay": 21
+        "back": 13,
+        "lay": 22
       },
       "7 Bartholomeu Dias": {
         "runnerId": 1095378821320066,
-        "back": 12.5,
-        "lay": 15.5
+        "back": 11.5,
+        "lay": 18.5
       },
       "10 Lady Bergamot": {
         "runnerId": 1095378821430166,
-        "back": 19,
+        "back": 15.5,
         "lay": 34
       },
       "6 Al Hamdany": {
         "runnerId": 1095378821280066,
-        "back": 19,
+        "back": 17.5,
         "lay": 34
       },
       "13 Ashington": {
         "runnerId": 1095378821550066,
-        "back": 16,
-        "lay": 24
+        "back": 15,
+        "lay": 27
       },
       "5 Seamour": {
         "runnerId": 1095378821240066,
-        "back": 27,
-        "lay": 160
+        "back": 26,
+        "lay": 310
       },
       "14 Daawy": {
         "runnerId": 1095378821580166,
@@ -846,52 +846,52 @@
       "5 Queen Of Desire": {
         "runnerId": 1095377596900067,
         "back": 4.2,
-        "lay": 4.6
+        "lay": 4.4
       },
       "6 Rose Berry": {
         "runnerId": 1095377596940167,
-        "back": 0,
-        "lay": 0
-      },
-      "4 One Last Night": {
-        "runnerId": 1095377596870067,
-        "back": 6.6,
-        "lay": 0
-      },
-      "1 Gold Filigree": {
-        "runnerId": 1095377596740067,
-        "back": 7,
-        "lay": 9
+        "back": 12.5,
+        "lay": 55
       },
       "11 Shumookhi": {
         "runnerId": 1095377597140067,
-        "back": 5.2,
-        "lay": 6.4
+        "back": 4.9,
+        "lay": 5.1
+      },
+      "4 One Last Night": {
+        "runnerId": 1095377596870067,
+        "back": 6.8,
+        "lay": 10.5
+      },
+      "1 Gold Filigree": {
+        "runnerId": 1095377596740067,
+        "back": 7.2,
+        "lay": 11
       },
       "10 Heartwarming": {
         "runnerId": 1095377597100067,
-        "back": 8,
-        "lay": 14
+        "back": 7.8,
+        "lay": 10
       },
       "8 Come On Leicester": {
         "runnerId": 1095377597020067,
-        "back": 8.6,
-        "lay": 14.5
+        "back": 9.4,
+        "lay": 11.5
       },
       "3 Ocelot": {
         "runnerId": 1095377596820167,
-        "back": 0,
-        "lay": 0
+        "back": 19,
+        "lay": 65
       },
       "7 Blame Roberta": {
         "runnerId": 1095377596980167,
-        "back": 0,
-        "lay": 0
+        "back": 18.5,
+        "lay": 85
       },
       "9 Fizzy Feet": {
         "runnerId": 1095377597060067,
-        "back": 0,
-        "lay": 0
+        "back": 26,
+        "lay": 550
       },
       "2 Maid In India": {
         "runnerId": 1095377596790067,
@@ -904,38 +904,38 @@
     "16:15 Lingfield": {
       "8 Wissahickon": {
         "runnerId": 1095379444270067,
-        "back": 1.39215,
-        "lay": 1.4
+        "back": 1.37735,
+        "lay": 1.39216
       },
       "4 Matterhorn": {
         "runnerId": 1095379444120167,
-        "back": 7.6,
-        "lay": 8.2
+        "back": 8.2,
+        "lay": 9.2
       },
       "1 Court House": {
         "runnerId": 1095379444020067,
-        "back": 13,
-        "lay": 21
+        "back": 13.5,
+        "lay": 23
       },
       "3 Master The World": {
         "runnerId": 1095379444090067,
-        "back": 18.5,
-        "lay": 70
+        "back": 19,
+        "lay": 24
       },
       "7 Victory Bond": {
         "runnerId": 1095379444230067,
-        "back": 20,
-        "lay": 210
+        "back": 22,
+        "lay": 95
       },
       "6 Roc Angel": {
         "runnerId": 1095379444200067,
-        "back": 0,
+        "back": 28,
         "lay": 210
       },
       "2 Executive Force": {
         "runnerId": 1095379444050067,
         "back": 0,
-        "lay": 0
+        "lay": 550
       },
       "5 Pactolus": {
         "runnerId": 1095379444160067,
@@ -948,146 +948,87 @@
     "16:25 Newcastle": {
       "5 Bo Samraan": {
         "runnerId": 1095378821510067,
-        "back": 2.56,
-        "lay": 2.68
+        "back": 2.48,
+        "lay": 2.62
       },
       "2 Smarter": {
         "runnerId": 1095378821400067,
-        "back": 3.75,
-        "lay": 4.3
+        "back": 3.9,
+        "lay": 4.4
       },
       "1 Gantier": {
         "runnerId": 1095378821360067,
-        "back": 3.9,
-        "lay": 4.7
+        "back": 4.1,
+        "lay": 4.2
       },
       "3 Fox Fearless": {
         "runnerId": 1095378821440167,
-        "back": 9.2,
+        "back": 9.4,
         "lay": 13
       },
       "4 Allocator": {
         "runnerId": 1095378821480067,
         "back": 14,
-        "lay": 40
+        "lay": 55
       },
       "id": 1095378820680067,
       "start": "2019-04-19T15:25:00.000Z"
     },
-    "16:35 Bath": {
-      "1 Bayshore Freeway": {
-        "runnerId": 1095377599220066,
-        "back": 3.1,
-        "lay": 3.55
-      },
-      "7 Hareeq": {
-        "runnerId": 1095377599590066,
-        "back": 0,
-        "lay": 0
-      },
-      "8 Petrastar": {
-        "runnerId": 1095377599670066,
-        "back": 0,
-        "lay": 0
-      },
-      "2 Hollywood Road": {
-        "runnerId": 1095377599280066,
-        "back": 0,
-        "lay": 0
-      },
-      "5 Given Choice": {
-        "runnerId": 1095377599460066,
-        "back": 0,
-        "lay": 0
-      },
-      "3 Cry Wolf": {
-        "runnerId": 1095377599370066,
-        "back": 0,
-        "lay": 0
-      },
-      "4 Jacbequick": {
-        "runnerId": 1095377599420066,
-        "back": 0,
-        "lay": 0
-      },
-      "6 Meagher's Flag": {
-        "runnerId": 1095377599520066,
-        "back": 0,
-        "lay": 0
-      },
-      "9 Bleu Et Noir": {
-        "runnerId": 1095377599750066,
-        "back": 0,
-        "lay": 0
-      },
-      "10 Rossetti": {
-        "runnerId": 1095377599820066,
-        "back": 0,
-        "lay": 0
-      },
-      "11 Hell Of A Lady": {
-        "runnerId": 1095377599880066,
-        "back": 0,
-        "lay": 0
-      },
-      "id": 1095377597740066,
-      "start": "2019-04-19T15:35:00.000Z"
-    },
     "16:45 Lingfield": {
       "8 Oh This Is Us": {
         "runnerId": 1095379447210067,
-        "back": 5.8,
-        "lay": 6
+        "back": 5.7,
+        "lay": 5.8
       },
       "7 Keyser Soze": {
         "runnerId": 1095379447170067,
-        "back": 6.2,
+        "back": 6.4,
         "lay": 7.2
       },
       "11 Straight Right": {
         "runnerId": 1095379447320067,
-        "back": 7.4,
-        "lay": 8.8
+        "back": 7.6,
+        "lay": 9
       },
       "4 Documenting": {
         "runnerId": 1095379447060167,
-        "back": 6.8,
-        "lay": 8.2
-      },
-      "6 Indyco": {
-        "runnerId": 1095379447130167,
-        "back": 9.4,
-        "lay": 11.5
+        "back": 7.2,
+        "lay": 8.4
       },
       "3 Cardsharp": {
         "runnerId": 1095379447030067,
-        "back": 10,
-        "lay": 13
+        "back": 9.8,
+        "lay": 13.5
       },
       "2 Arcanada": {
         "runnerId": 1095379446990067,
+        "back": 10.5,
+        "lay": 12
+      },
+      "6 Indyco": {
+        "runnerId": 1095379447130167,
         "back": 10,
-        "lay": 12.5
+        "lay": 11.5
       },
       "1 Above The Rest": {
         "runnerId": 1095379446950067,
-        "back": 13.5,
-        "lay": 18
+        "back": 12.5,
+        "lay": 16.5
       },
       "5 Glendevon": {
         "runnerId": 1095379447100067,
-        "back": 19,
-        "lay": 36
+        "back": 15,
+        "lay": 27
       },
       "9 Salateen": {
         "runnerId": 1095379447250067,
-        "back": 18,
-        "lay": 42
+        "back": 18.5,
+        "lay": 46
       },
       "10 Silver Quartz": {
         "runnerId": 1095379447280167,
-        "back": 26,
-        "lay": 60
+        "back": 20,
+        "lay": 55
       },
       "id": 1095379445360067,
       "start": "2019-04-19T15:45:00.000Z"
@@ -1095,58 +1036,58 @@
     "16:55 Newcastle": {
       "3 Burford Brown": {
         "runnerId": 1095378824840166,
-        "back": 0,
-        "lay": 0
+        "back": 4.8,
+        "lay": 5.2
       },
       "2 Another Angel": {
         "runnerId": 1095378824800166,
-        "back": 0,
-        "lay": 0
+        "back": 8.4,
+        "lay": 12.5
       },
       "8 Tathmeen": {
         "runnerId": 1095378825030166,
-        "back": 0,
-        "lay": 0
+        "back": 8,
+        "lay": 9.4
       },
       "12 Jan Van Hoof": {
         "runnerId": 1095378825190166,
-        "back": 0,
-        "lay": 0
+        "back": 8.8,
+        "lay": 13.5
       },
       "6 Little Legs": {
         "runnerId": 1095378824960066,
-        "back": 0,
-        "lay": 0
+        "back": 9.6,
+        "lay": 15.5
       },
       "11 Landing Night": {
         "runnerId": 1095378825150166,
-        "back": 0,
-        "lay": 0
+        "back": 10,
+        "lay": 15
       },
       "9 Oriental Lilly": {
         "runnerId": 1095378825070166,
-        "back": 0,
-        "lay": 120
+        "back": 10.5,
+        "lay": 15
       },
       "13 Key To Power": {
         "runnerId": 1095378825230066,
-        "back": 0,
-        "lay": 0
+        "back": 11.5,
+        "lay": 17.5
       },
       "5 Bashiba": {
         "runnerId": 1095378824920066,
-        "back": 0,
-        "lay": 0
+        "back": 13.5,
+        "lay": 55
       },
       "4 Dynamo Walt": {
         "runnerId": 1095378824880066,
-        "back": 0,
-        "lay": 0
+        "back": 12.5,
+        "lay": 18
       },
       "1 Henley": {
         "runnerId": 1095378824770066,
-        "back": 0,
-        "lay": 0
+        "back": 15,
+        "lay": 21
       },
       "10 Marietta Robusti": {
         "runnerId": 1095378825110166,
@@ -1160,6 +1101,60 @@
       },
       "id": 1095378823350066,
       "start": "2019-04-19T15:55:00.000Z"
+    },
+    "17:05 Bath": {
+      "3 The Daley Express": {
+        "runnerId": 1095377602570067,
+        "back": 3.25,
+        "lay": 3.45
+      },
+      "2 Acclaim The Nation": {
+        "runnerId": 1095377602530067,
+        "back": 5.6,
+        "lay": 6.2
+      },
+      "1 Little Boy Blue": {
+        "runnerId": 1095377602490067,
+        "back": 7.8,
+        "lay": 9
+      },
+      "9 Union Rose": {
+        "runnerId": 1095377602790067,
+        "back": 9.4,
+        "lay": 18
+      },
+      "6 Secretfact": {
+        "runnerId": 1095377602680067,
+        "back": 11,
+        "lay": 15
+      },
+      "7 Delagate This Lord": {
+        "runnerId": 1095377602710167,
+        "back": 9.6,
+        "lay": 11
+      },
+      "8 Bahamian Sunrise": {
+        "runnerId": 1095377602750067,
+        "back": 17,
+        "lay": 26
+      },
+      "10 Powerful Dream": {
+        "runnerId": 1095377602830067,
+        "back": 19,
+        "lay": 46
+      },
+      "4 Waseem Faris": {
+        "runnerId": 1095377602610067,
+        "back": 14,
+        "lay": 23
+      },
+      "5 Bungee Jump": {
+        "runnerId": 1095377602640067,
+        "back": 13.5,
+        "lay": 22
+      },
+      "id": 1095377600880067,
+      "start": "2019-04-19T16:05:00.000Z"
     }
   }
 }

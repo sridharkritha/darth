@@ -1,4 +1,5 @@
 var DOOR = require('./door');
+var REMOTE = require('./remote');
 var fs = require('fs');
 
 var ACCESS = (function() {
@@ -27,14 +28,14 @@ var ACCESS = (function() {
 	
 	return {
 		// Public Members
-		getAccess: function(hostType, callback) {
+		getAccess: function(hostType, callback, printCallback) {
 			if(hostType === 'local') {
 				getCredential(login, callback);
 			}
 			else if(hostType === 'remote') {
 				remoteHost( function(credential) {
 					this.login(null, credential, callback);
-				});
+				}, printCallback);
 			}
 		}
 	};

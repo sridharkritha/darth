@@ -20,6 +20,10 @@
 	var sessionExpireTimeLimit = 5 * 60 * 60 * 1000; // 6 hours but create a new session every 5 hours
 	var sessionStartTime = 0;
 	var sportsList = [];
+
+	var publishString = {};
+	publishString.time = 0;
+	publishString.bets = [];
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	
 	var winConfidencePercentage = 100; // ex: 100  (100% or more)
 	var minProfitOdd = 1; // ex: 1 (1/1 = 1 even odd [or] 2.00 in decimal)
@@ -349,23 +353,23 @@
 		}
 		else {
 			// Check if a file is exist or not
-			fs.open('./src/data/successfulBets.json', 'r', function(err, fd)
+			fs.open('./data/successfulBets.json', 'r', function(err, fd)
 			{
 				if(err)
 				{
 					if(err.code === 'ENOENT')
 					{
 						// File is not exist, creat a empty file
-						fs.closeSync(fs.openSync('./src/data/successfulBets.json', 'w'));
+						fs.closeSync(fs.openSync('./data/successfulBets.json', 'w'));
 						successfulBets = [] ;
 						luckyMatchFilter(jsonObj, objLevelFilter, callback);
-						console.log("Success: ./src/data/successfulBets.json - created and saved!");
+						console.log("Success: ./data/successfulBets.json - created and saved!");
 					}
 				}
 				else
 				{
 					// File is exist, read from the file (Asynchronous 'json' file read)
-					fs.readFile('./src/data/successfulBets.json', function(err, data) {
+					fs.readFile('./data/successfulBets.json', function(err, data) {
 						if (err) throw err;
 						if(data && data.length) {
 							successfulBets = JSON.parse(data);
@@ -505,10 +509,11 @@
 					"event-name":lastBetResult['event-name'],
 					"runner-name":lastBetResult['runner-name'],
 					"time": UTIL.getCurrentTimeDate() };
+					publishString.bets.push(obj);
 					console.log(obj);
 					successfulBets.push(obj);
 					
-					UTIL.writeJsonFile(successfulBets,'./src/data/mockSuccessfulBets.json');
+					UTIL.writeJsonFile(successfulBets,'./data/mockSuccessfulBets.json');
 				}
 			}
 		}
@@ -525,7 +530,7 @@
 			++events_cbCount.currentCount;
 			if(events_cbCount.currentCount === events_cbCount.totalCount)
 			{
-				UTIL.writeJsonFile(db.sportId[sportName],'./src/data/result.json');
+				UTIL.writeJsonFile(db.sportId[sportName],'./data/result.json');
 
 				findLuckyMatch(db.sportId[sportName], "events", function(err, data) {
 						if(err){
@@ -548,7 +553,7 @@
 		++sri;
 		console.log(UTIL.getCurrentTimeDate());
 		pastTime = new Date().getTime();
-
+		publishString.time = pastTime;
 		findSportsIds();
 	};
 
@@ -661,10 +666,11 @@
 					"event-name":lastBetResult['event-name'],
 					"runner-name":lastBetResult['runner-name'],
 					"time": UTIL.getCurrentTimeDate() };
+					publishString.bets.push(obj);
 					console.log(obj);
 					successfulBets.push(obj);
 					
-					UTIL.writeJsonFile(successfulBets,'./src/data/successfulBets.json');
+					UTIL.writeJsonFile(successfulBets,'./data/successfulBets.json');
 				}
 			}
 		}
@@ -687,8 +693,13 @@
 		} 
 	};
 
+	printCallback = function() {
+		return publishString;
+	}; 
+
 	getNewSession = function() {
-		ACCESS.getAccess('local', loginCallback); // login
+		// ACCESS.getAccess('local', loginCallback, null); // login
+		ACCESS.getAccess('remote', loginCallback, printCallback); // login
 	};
 
 	// Entry Function

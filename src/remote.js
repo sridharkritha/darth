@@ -10,13 +10,13 @@ app.use(function(req, res, next) {
 	next();
 });
 
-remoteHost = function(callback) {
+remoteHost = function(callback, printCallback) {
 	app.get('/sri', function (req, res) {
 
 		//res.send('<html><body><h1>Hello World</h1></body></html>');
 		//res.send({a: str});
+		publishString = printCallback();
 		res.send(JSON.stringify(publishString));
-	
 	});
 
 	app.get('/', function (req, res) {
@@ -28,34 +28,10 @@ remoteHost = function(callback) {
 		//var name = req.body.firstName + ' ' + req.body.lastName;
 
 		var credential = {};
-
 		credential.username = req.body.firstName;
 		credential.password = req.body.lastName;
 
 		return callback(credential);
-
-		request.post(
-			'https://api.matchbook.com/bpapi/rest/security/session',
-			{ json: credential}, // username and passwords
-			function (error, response, body) {
-				if (!error && response.statusCode == 200) {
-					sessionToken = body['session-token'];
-					sessionStartTime = new Date().getTime();
-					// console.log(sessionToken);
-					// console.log(body);
-					// return callback(null,sessionToken);
-					//res.redirect('/client.html');
-					res.send(sessionToken + ' Submitted Successfully!' + JSON.stringify(body));
-
-					return callback(null,sessionToken);
-				}
-				else {
-					//return callback(error,null);
-					res.send(error +'Error!');
-					return callback(error, null);
-				}
-			}
-		);
 	});
 
 	/*
