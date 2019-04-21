@@ -48,7 +48,9 @@
 	}
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+	getSessionStartTime = function() {
+		return sessionStartTime;
+	}
 
 	callbackCount = function(currentCount , totalCount) {
 		this.currentCount = currentCount || 0;
@@ -640,7 +642,7 @@
 				remainingTime = (1000 - remainingTime) > 0 ? 1000 - remainingTime : 0;
 				setTimeout(function() {
 					// Check for session expire timeout
-					if(currentTime - sessionStartTime > sessionExpireTimeLimit) {
+					if(currentTime - getSessionStartTime() > sessionExpireTimeLimit) {
 						getNewSession();
 					}
 					else {
@@ -676,7 +678,7 @@
 		}
 	};
 
-	loginCallback = function(err, sessionToken, sessionStartTime) {
+	loginCallback = function(err, sessionToken, startTime) {
 		if(err){
 			sessionToken = null;
 			sessionStartTime = 0;
@@ -688,7 +690,7 @@
 		}
 		else{
 			sessionToken = sessionToken;
-			sessionStartTime = sessionStartTime;
+			sessionStartTime = startTime;
 			run();
 		} 
 	};
@@ -698,7 +700,7 @@
 	}; 
 
 	getNewSession = function() {
-		// ACCESS.getAccess('local', loginCallback, null); // login
+		//ACCESS.getAccess('local', loginCallback, null); // login
 		ACCESS.getAccess('remote', loginCallback, printCallback); // login
 	};
 
