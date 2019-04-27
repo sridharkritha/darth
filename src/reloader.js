@@ -25,8 +25,8 @@ window.addEventListener('load', function()
 			var now = new Date();
 			// Date string is appended as a query with live data for not to use the cached version 
 			//var url = 'livefeed.txt?' + now.getTime();
-			//var url = 'http://localhost:1239/sri';
-			var url = 'https://stormy-waters-62271.herokuapp.com/sri';
+			var url = 'http://localhost:1229/sri';
+			//var url = 'https://stormy-waters-62271.herokuapp.com/sri';
 			// asynchronous requests
 			xhr.open("GET", url, true);
 			// Send the request over the network
