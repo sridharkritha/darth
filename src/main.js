@@ -17,6 +17,7 @@
 	var pastTime = 0;
 	var currentTime = 0;
 	var betNow = [];
+	var restAPIrequestInterval = 10000; // 1000 - 1 second 
 	var sessionExpireTimeLimit = 5 * 60 * 60 * 1000; // 6 hours but create a new session every 5 hours
 	var sessionStartTime = 0;
 	var sportsList = [];
@@ -114,10 +115,14 @@ remoteHost = function(callback, printCallback) {
 
 	requestResponse = function(options, obj, destObj, keys, filterDay, closureSave, sports_cbCount, callback) {
 		request(options, function (error, response, body) {
-			if (error) {
-				return callback(error, sports_cbCount, null);
-			}
+
 			var jsonFormat = JSON.parse(body);
+
+			if (error || jsonFormat.hasOwnProperty('errors')) {
+				var errorMessage = error || jsonFormat['errors'][0].messages[0];
+				console.log(errorMessage);
+				return callback(errorMessage, sports_cbCount, null);
+			}
 
 			if (Object.keys(jsonFormat[obj]).length) {
 				// not empty
@@ -620,7 +625,7 @@ remoteHost = function(callback, printCallback) {
 			}
 
 			--sri;
-			console.log(sri);
+			//console.log(sri);
 
 
 			var sports_cbCount = new callbackCount(0, sportsInterested.length);
@@ -682,7 +687,7 @@ remoteHost = function(callback, printCallback) {
 
 				currentTime = new Date().getTime();
 				remainingTime = currentTime - pastTime;
-				remainingTime = (1000 - remainingTime) > 0 ? 1000 - remainingTime : 0;
+				remainingTime = (restAPIrequestInterval - remainingTime) > 0 ? restAPIrequestInterval - remainingTime : 0;
 				setTimeout(function() {
 					// Check for session expire timeout
 					if(currentTime - getSessionStartTime() > sessionExpireTimeLimit) {
@@ -743,9 +748,9 @@ remoteHost = function(callback, printCallback) {
 	}; 
 
 	getNewSession = function() {
-		//ACCESS.getAccess('local', loginCallback, null); // login
+		ACCESS.getAccess('local', loginCallback, null); // login
 		//ACCESS.getAccess('remote', loginCallback, printCallback); // login
-		remoteHost( function(credential) { this.login(null, credential, loginCallback);}, printCallback);
+		//remoteHost( function(credential) { this.login(null, credential, loginCallback);}, printCallback);
 	};
 
 	// Entry Function
