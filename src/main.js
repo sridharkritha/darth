@@ -17,7 +17,7 @@
 	var pastTime = 0;
 	var currentTime = 0;
 	var betNow = [];
-	var restAPIrequestInterval = 10000; // 1000 - 1 second 
+	var restAPIrequestInterval = 1000; // 1000 - 1 second 
 	var sessionExpireTimeLimit = 5 * 60 * 60 * 1000; // 6 hours but create a new session every 5 hours
 	var sessionStartTime = 0;
 	var sportsList = [];
@@ -45,7 +45,7 @@
 		winConfidencePercentage = 10; // ex: 100  (100% or more)
 		minProfitOdd = 0.1; // ex: 1 (1/1 = 1 even odd [or] 2.00 in decimal)
 		betMinutesOffset = 300; // place bet: +1 min before the start time, -5 min after the start time		
-		whichDayEvent = 'today'; // 'today'   or    'tomorrow'
+		whichDayEvent = 'tomorrow'; // 'today'   or    'tomorrow'
 	}
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // remote.js
